@@ -52,8 +52,8 @@ jobs:
           distribution: 'temurin'
 
       - name: Setup Android SDK
-  uses: android-actions/setup-android@v4
-  with:
+        uses: android-actions/setup-android@v4
+        with:
     packages: ''
 
       - name: Install required Android SDK packages
